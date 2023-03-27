@@ -1,0 +1,94 @@
+
+.contacts {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contacts img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    
+}
+
+.header {
+   display: flex;
+   padding: 20px;
+   justify-content: space-between;
+   align-items: center;
+    
+
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(img/fonts/Roboto-Bold.ttf)
+}
+
+
+.links {
+    font-family: 'Roboto';
+   
+  
+}
+
+
+.header a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    padding: 5px;
+}
+
+.logo {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.brands1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Roboto';
+
+}
+
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: flex-end;
+}
+
+.brands img {
+    width:100px;
+   
+    
+    
+} 
+
+.content {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.slides {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+}
+
+.slides1 {
+    padding: 20px;
+    width: 25%;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.slides1 img {
+    display: block;
+}
+
